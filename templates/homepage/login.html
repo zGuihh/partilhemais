@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Partilhe+</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap" />
+    <link rel="stylesheet" href="{% static '/login.css' %}" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="rectangle">
+        <button class="button">
+          <span class="no-account">Não tem uma conta?</span
+          >
+          <a href="/registro">
+          <span class="create-now">Crie agora!</span>
+          </a>
+        </button>
+        <div class="image"></div>
+        <div class="frame">
+          <div class="frame-1">
+            <div class="frame-2"><span class="login">Login</span></div>
+            <button class="frame-3">
+              <div class="image-4"></div>
+              <span class="continue-google">Continue Com o Google</span>
+            </button>
+          </div>
+
+          <form method="POST" autocomplete="off">
+      
+              {% csrf_token %}
+      
+              {{loginform.as_p}}
+      
+              <input class="frame-10" type="submit" value="Login"/>
+      
+          </form>
+      
+          <div class="frame-7">
+            <div class="frame-8">
+              <div class="frame-9">
+              </div>
+              <div class="frame-b">
+                <div class="frame-c">
+                  </div>
+                </div>
+                <div class="frame-f">
+                  <div class="checkbox">
+                    <div class="check">
+                      <div class="check-solid">
+                        <div class="icons-navigation-others-check">
+                          <div class="vector"></div>
+                        </div>
+                      </div>
+                      <div class="icon-checkbox-unfilled"></div>
+                    </div>
+                    <span class="span-lembrar-senha">Lembrar senha</span>
+                  </div>
+                  <span class="span-esqueceu-senha">Esqueceu a senha?</span>
+                </div>
+              </div>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="refeilcao-hd"></div>
+      <div class="rectangle-11">
+        <div class="vector-12"></div>
+        <div class="flex-row-ddf">
+          <div class="vector-13"></div>
+          <div class="vector-14"></div>
+          <div class="vector-15"></div>
+          <div class="vector-16"></div>
+        </div>
+        <div class="vector-17"></div>
+        <div class="vector-18"></div>
+        <div class="vector-19"></div>
+        <div class="flex-row">
+          <div class="vector-1a"></div>
+          <div class="vector-1b"></div>
+        </div>
+        <div class="flex-row-cc">
+          <div class="rectangle-1c"></div>
+          <div class="vector-1d"></div>
+          <div class="vector-1e"></div>
+          <div class="vector-1f"></div>
+          <div class="vector-20"></div>
+          <div class="vector-21"></div>
+          <div class="vector-22"></div>
+          <div class="vector-23"></div>
+          <div class="vector-24"></div>
+          <div class="frame-25">
+            <div class="vector-26"></div>
+            <div class="vector-27"></div>
+            <div class="vector-28"></div>
+          </div>
+          <div class="vector-29"></div>
+          <div class="vector-2a"></div>
+          <div class="vector-2b"></div>
+          <div class="vector-2c"></div>
+          <div class="vector-2d"></div>
+          <div class="group"></div>
+          <div class="vector-2e"></div>
+          <div class="vector-2f"></div>
+          <div class="vector-30"></div>
+          <div class="vector-31"></div>
+          <div class="group-32"><div class="vector-33"></div></div>
+          <div class="group-34">
+            <div class="vector-35"></div>
+            <div class="vector-36"></div>
+            <div class="vector-37"></div>
+            <div class="vector-38"></div>
+            <div class="vector-39"></div>
+            <div class="vector-3a"></div>
+          </div>
+          <div class="vector-3b"></div>
+          <div class="vector-3c"></div>
+          <div class="vector-3d"></div>
+          <div class="vector-3e"></div>
+          <div class="vector-3f"></div>
+          <div class="vector-40"></div>
+          <div class="vector-41"></div>
+          <div class="vector-42"></div>
+          <div class="vector-43"></div>
+          <div class="vector-44"></div>
+          <div class="vector-45"></div>
+          <div class="vector-46"></div>
+        </div>
+        <span class="esse-e-o-partilhe">Esse é o Partilhe+</span
+        ><span class="pra-zerar-o-desperdicio">Pra Zerar o Desperdício</span>
+        <div class="vector-47"></div>
+      </div>
+      <div class="group-48"></div>
+      <div class="suco-de-laranja-removebg-preview">
+        <div class="vector-49"></div>
+      </div>
+      <div class="vector-4a"></div>
+      <div class="vector-4b"></div>
+    </div>
+  </body>
+</html>
